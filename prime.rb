@@ -1,5 +1,5 @@
 def prime?(contender)
-  return false if contender.negative?
+  
   return false if contender < 2
   array = (2..contender).to_a -[contender]
   
