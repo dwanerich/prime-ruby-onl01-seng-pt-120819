@@ -4,7 +4,6 @@ def prime?(contender)
   
   array.each do |num|
     return false if contender % num == 0
-    
   end
   return true
 end
